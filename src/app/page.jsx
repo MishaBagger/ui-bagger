@@ -1,6 +1,7 @@
 export default function Home() {
     return (
         <>
+        <div className="container mx-auto">
             <h1 className="text-5xl font-bold text-orange-400 text-center mt-32 p-">
                 Hello, Tailwind!
             </h1>
@@ -10,6 +11,16 @@ export default function Home() {
 
             <div className="bg-blue-400 mt-5 w-24 h-32 animate-pulse">
                 Width & Height
+            </div>
+            <div className="flex justify-between gap-5">
+                <div className="bg-blue-300 w-20 h-20"/>
+                <div className="bg-blue-300 w-20 h-20"/>
+            </div>
+
+            <div className="grid grid-cols-2 gap-5">
+                <div className="bg-blue-500 h-20"/>
+                <div className="bg-blue-500 h-20"/>
+            </div>
             </div>
         </>
     )
