@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
                     <div className="bg-blue-500 h-20" />
                     <div className="bg-blue-500 h-20" />
                 </div>
+
+                <Link href='/part2'>part 2</Link>
 
                 {show && (
                     <div className="fixed inset-0 bg-black/30 backdrop-blur-md flex items-center justify-center">
