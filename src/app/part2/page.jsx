@@ -15,6 +15,10 @@ export default function Page() {
             <div className="mx-auto w-50 h-15 mt-10 text-center bg-orange-400 rounded shadow-2xl font-bold p-5 flex items-center justify-center transition-colors ease-in-out duration-300 md:bg-blue-400 lg:bg-purple-400 xl:bg-red-400 2xl:bg-green-400">
                 Adaptive block
             </div>
+
+            <div className="perspective-near">
+                <iframe src="" className="w-full h-full aspect-video rotate-x-10 rotate-z-10 transform-3d mx-auto rounded shadow-2xl"></iframe>
+            </div>
         </div>
     )
 }
